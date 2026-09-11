@@ -32,6 +32,6 @@ greetUser("John");
 greetUser("Emily");
 
 document.getElementById("testButton").addEventListener("click", function() {
-  alert("JavaScript works!");
+  alert("You did it!");
 });
 
