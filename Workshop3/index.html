@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Favorite Animal</title>
+
+    <script src="js/animal.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="animalTitle">My Favourite Animal</h1>
+
+    <p>
+      A deer has a calm, gentle presence that makes it one of the most graceful
+      animals in the wild. With its slender legs, soft brown coat, and alert
+      eyes, a deer moves quietly through forests and fields, always aware of its
+      surroundings. It symbolizes peace, sensitivity, and natural beauty, often
+      appearing in stories and cultures as a sign of harmony with nature.
+    </p>
+
+    <img
+      src="img/r_winkelmann-deer-5148320_1920.jpg"
+      alt="A cute deer"
+      width="300"
+    />
+
+    <br />
+    <br /><button id="animalButton">Click for deer</button>
+    <p></p>
+
+    <h2>Choose another animal</h2>
+
+    <input id="animalInputPreview" type="text" placeholder="Type an animal" />
+
+    <p>Characters: <span id="charCount">0</span></p>
+
+    <p id="previewOutput"></p>
+
+    <form id="animalForm">
+      <label for="animalInput">Choose another animal:</label>
+      <input type="text" id="animalInput" placeholder="Type an animal" />
+      <button type="submit">Submit</button>
+    </form>
+
+    <p id="animalOutput"></p>
+
+    <p>
+      <a href="https://en.wikipedia.org/wiki/Deer" target="_blank">
+        Learn more about deers
+      </a>
+    </p>
+  </body>
+</html>
