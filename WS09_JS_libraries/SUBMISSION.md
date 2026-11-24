@@ -7,8 +7,9 @@ For confidentiality purposes, I did not place my openweather API Key in the code
 
 ## How I tested it
 - I entered my Openweather API Key (Any other valid Openweather API Key should work as well)
-- Searched for Helsinki and Valkeakoski (my home city)
+- Searched for Helsinki, Tampere and Valkeakoski (my home city)
 - I saw that the chart displayed correctly
 - The temperature displayed correctly above the chart
 - I verified that the chart type line or bar displayed correctly for any selected city
+- I tried to refresh the page and noticed that the city that was selected before the refresh stayed in the field while the API key dissapered.
 - Finally, I tested the city field with empty city and non-existance city name and API key field with empty API key field, valid API key, non-valid API key and confirmed that validation messages were shown.
