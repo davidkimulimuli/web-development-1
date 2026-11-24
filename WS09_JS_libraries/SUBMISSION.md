@@ -6,6 +6,7 @@ I added the first feature "Temperature Summary" from the provided four options. 
 For confidentiality purposes, I did not place my openweather API Key in the code. I added an input field for API Key. I have included my own API Key as a comment in the Canvas comment field.
 
 ## How I tested it
+- I used my browser's developer tools, opened the console and trouble shooted my additions
 - I entered my Openweather API Key (Any other valid Openweather API Key should work as well)
 - Searched for Helsinki, Tampere and Valkeakoski (my home city)
 - I saw that the chart displayed correctly
