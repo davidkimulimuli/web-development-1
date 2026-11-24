@@ -66,6 +66,10 @@
     <input type="text" id="kaupunki" value="Helsinki" />
      <!-- <button onclick="haeSaa()">Get weather</button> -->
      <!-- ctrl + k ctrl + c -->
+
+    <label for="apiKey">API key</label>
+    <input type="password" id="apiKey" />
+
     <button id="haeSaaPainike">Get weather</button>
     <p id="saaYllatys" style="display: none;">&#9729; The cloud crew is checking the weather!</p>
 
@@ -74,8 +78,14 @@
     <select id="chartType" onchange="paivitaKaavio()">
         <option value="line">Line</option>
         <option value="bar">Bar</option>
-        <option value="pie">Pie</option>
+        
     </select>
+
+    <h2 id="cityName"></h2>
+
+    <p id="forecastSummary"></p>
+
+
     <canvas id="tempChart" width="400" height="200"></canvas>
 
     <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
